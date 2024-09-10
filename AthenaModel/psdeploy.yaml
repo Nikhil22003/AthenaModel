@@ -1,0 +1,10 @@
+enabled: true
+image: adibop/dyna:vidgenaz
+containerRegistry: dynaVideoGeneration
+port: 8000
+env:
+  - name: ENV
+    value: VAR
+resources:
+  replicas: 1
+  instanceType: C4
